@@ -1,6 +1,6 @@
 {
   "name": "aitournament-rps-client",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "AiTournament rock paper scissors client SDK",
   "homepage": "https://aitournament.com",
   "repository": {
