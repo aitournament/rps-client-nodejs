@@ -1,0 +1,28 @@
+{
+  "name": "pg-manager",
+  "version": "0.2.2",
+  "description": "Postgres schema manager",
+  "homepage": "https://github.com/fuchsnj/pg-manager",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/fuchsnj/pg-manager.git"
+  },
+  "bugs": {
+    "url": "https://github.com/fuchsnj/pg-manager/issues",
+    "email": "fuchsnj@gmail.com"
+  },
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": {
+    "name": "Nathan Fox",
+    "email": "fuchsnj@gmail.com"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^0.18.0",
+    "isomorphic-ws": "^4.0.1",
+    "ws": "^5.1.1"
+  }
+}
