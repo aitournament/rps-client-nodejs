@@ -1,4 +1,4 @@
-#AiTournament rock paper scissors client SDK
+# AiTournament rock paper scissors client SDK
 
 Website: https://rps.aitournament.com
 
