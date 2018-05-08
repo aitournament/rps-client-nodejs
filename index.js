@@ -72,7 +72,7 @@ class RPSClient {
     }
 }
 
-Client.ROCK = "ROCK";
-Client.PAPER = "PAPER";
-Client.SCISSORS = "SCISSORS";
-module.exports = Client;
+RPSClient.ROCK = "ROCK";
+RPSClient.PAPER = "PAPER";
+RPSClient.SCISSORS = "SCISSORS";
+module.exports = RPSClient;
