@@ -1,5 +1,5 @@
 # AiTournament rock paper scissors client SDK
-![npm](https://img.shields.io/npm/v/aitournament-rps-client.svg)
+[![npm](https://img.shields.io/npm/v/aitournament-rps-client.svg)](https://www.npmjs.com/package/aitournament-rps-client)
 
 Website: https://rps.aitournament.com
 
