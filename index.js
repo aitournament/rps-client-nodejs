@@ -44,15 +44,11 @@ class RPSClient {
 
         ws.onmessage = function (message) {
             let event = JSON.parse(message.data);
-            if (event.type === "METADATA") {
-                metadata = event.data;
-                if (metadata.player1 === self.username) {
+            if (event.type === "AUTH") {
+                if (event.data.player === "PLAYER1") {
                     firstPlayer = true;
-                } else if (metadata.player2 === self.username) {
-                    firstPlayer = false;
                 } else {
-                    console.log("Invalid username");
-                    ws.close();
+                    firstPlayer = false;
                 }
                 makeMove();
             } else if (event.type === "MOVE") {
@@ -64,6 +60,8 @@ class RPSClient {
                     opponentHistory.push(event.data.player1);
                 }
                 makeMove();
+            } else if (event.type === "METADATA") {
+                this.metadata = event.data;
             }
         };
         ws.onclose = function (info) {
